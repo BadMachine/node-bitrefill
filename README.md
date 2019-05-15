@@ -43,12 +43,12 @@ bitrefill.lookupNumber(number, token);
 
 ```
 
-### placeOrder(_string(number), _string(operatorSlug), _string(email), _string(paymentMethod), _string (public token), _string (proxy address))
+### placeOrder(string(number), string(operatorSlug), string(email), string(paymentMethod), string (public token), string (proxy address))
 
 
-### getOrder(_string(orderID), _string(token));
+### getOrder(string(orderID), string(token));
 
-### lookupNumber(_string(number), _string(token));
+### lookupNumber(string(number), string(token));
 
 
 ## License

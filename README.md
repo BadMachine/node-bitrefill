@@ -43,14 +43,13 @@ bitrefill.lookupNumber(number, token);
 
 ```
 
-### random()
-Returns a string with valid imei. Script makes string with 3 parts:
-1st part is TAC (Type Allocation Code)
-2nd part is random value from 100000 to 999999
-3rd part is last digit(Luhn digit)
+### placeOrder(_string(number), _string(operatorSlug), _string(email), _string(paymentMethod), _string (public token), _string (proxy address))
 
-### isValid(imei)
-Returns a boolean value.
+
+### getOrder(_string(orderID), _string(token));
+
+### lookupNumber(_string(number), _string(token));
+
 
 ## License
 

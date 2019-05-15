@@ -1,6 +1,6 @@
 # node-bitrefill
 ## Description
-Simple to use package to work with bitrefill API
+Simple to use package to work with bitrefill API (Using PublicApiKey)
 
 ## Installation
     $ npm install node-bitrefill

@@ -6,11 +6,12 @@ Simple to use package to work with bitrefill API (Using PublicApiKey)
     $ npm install node-bitrefill
     
 ## Usage
+# EXAMPLE
 ``` javascript
 var btrf = require ('node-bitrefill');
 var bitrefill = new btrf();
 var number,operatorSlug,email,paymentMethod,token,ifProxy;
-//EXAMPLE
+
 number = "+79253139585";
 operatorSlug = "megafon-center-russia";
 email = "1@1.ru";

@@ -44,11 +44,10 @@ bitrefill.lookupNumber(number, token);
 ```
 
 ``` javascript
-placeOrder(string(number), string(operatorSlug), string(email), string(paymentMethod), string (public token), string (proxy address))
-
-
+ placeOrder(string(number), string(operatorSlug), string(email), string(paymentMethod), string (public_token), string (proxy_address))
+ //
  getOrder(string(orderID), string(token));
-
+//
  lookupNumber(string(number), string(token));
 ```
 

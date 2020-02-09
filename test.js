@@ -1,5 +1,5 @@
-var btrf = require ('./scr/btrfapi');
-var bitrefill = new btrf();
+const btrf = require ('./scr/btrfapi');
+const bitrefill = new btrf();
 var number,operatorSlug,email,paymentMethod,token,ifProxy;
 
 number = "79675714702";
